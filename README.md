@@ -1,6 +1,6 @@
 # Deployment of a PostgreSQL Database in Heroku 
 
-This is how was created the database for Automation Squad in Heroku-Postgres.
+This is how was created the database for Automation Cell in Heroku-Postgres.
 
 ## 1 Set a Postgres Database
 1. Create a new Heroku app.
