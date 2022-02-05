@@ -22,9 +22,9 @@ It’s an essential part of using Heroku.
 
 * In case you dont have installed follow the instructons from Heroku site](https://devcenter.heroku.com/articles/heroku-cli)
 * Login in your terminal.
-```
-heroku login
-```
+	```
+	heroku login
+	```
 * To test the conection you should introduce credentials:
 	```
 	heroku pg:psql postgresql-solid-19555 --app name_app
