@@ -31,3 +31,8 @@ It’s an essential part of using Heroku.
 	```
 	![credentials](assets/test_connection.jpg)
 
+## 3. Write a Postgres script to create the database tables.
+
+According to ER diagmam write the sentences to create the database tables. ➡️ [automation_ER.sql]()
+
+![Database ER Diagram](assets/Automation_ER.png)
