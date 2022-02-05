@@ -2,6 +2,8 @@
 
 This is how was created the database for Automation Cell in Heroku-Postgres.
 
+Is written as instructions in order to replicate the process if necessary:
+
 ## 1 Set a Postgres Database
 1. Create a new Heroku app.
 2. Add a PostreSQL database:
@@ -12,4 +14,20 @@ This is how was created the database for Automation Cell in Heroku-Postgres.
 	* Navigate to the Resources tab in your app's dashboard again and select the Heroku Postgres resource.
 	* Now select the Settings tab in the header of that screen.
 	* Here, you can click the View Credentials button to see the credentials of your PostgreSQL database.
+
+## 2 Configure Heroku CLI
+
+The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. 
+It’s an essential part of using Heroku.
+
+* In case you dont have installed follow the instructons from Heroku site](https://devcenter.heroku.com/articles/heroku-cli)
+* Login in your terminal.
+```
+heroku login
+```
+* To test the conection you should introduce credentials:
+	```
+	heroku pg:psql postgresql-solid-19555 --app name_app
+	```
+	![credentials](assets/test_connection.jpg)
 
