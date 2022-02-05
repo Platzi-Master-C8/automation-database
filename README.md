@@ -10,6 +10,7 @@ Is written as instructions in order to replicate the process if necessary:
 2. Add a PostreSQL database:
 	*  Navigate to the Resources tab in the header of your newly created app's dahsboard. 
 	*  Then type Heroku Postgres into the Add-ons search field.When shown, select the suggested Heroku Postgres add-on from the dropdown.
+	![heroku_postgres](assets/heroku_postgres.png)
 	*  The next popup asks you to choose a pricing plan for the database. Select the Hobby Dev - Free plan and click Provision.
 3. Access the database credentials (and connection URL)
 	* Navigate to the Resources tab in your app's dashboard again and select the Heroku Postgres resource.
