@@ -36,3 +36,14 @@ It’s an essential part of using Heroku.
 According to ER diagmam write the sentences to create the database tables. ➡️ [automation_ER.sql]()
 
 ![Database ER Diagram](assets/Automation_ER.png)
+
+## 4. Send database schemas to Heroku from terminal
+
+* Introduce the sentences to create the database tables:
+
+```
+heroku pg:psql --app automation-db < create_schema.sql 
+```
+Here you have a database in Heroku and it's ready to store data.
+
+![tables](assets/schema.png)
