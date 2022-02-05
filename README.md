@@ -16,6 +16,7 @@ Is written as instructions in order to replicate the process if necessary:
 	* Navigate to the Resources tab in your app's dashboard again and select the Heroku Postgres resource.
 	* Now select the Settings tab in the header of that screen.
 	* Here, you can click the View Credentials button to see the credentials of your PostgreSQL database.
+	![credentials](assets/credentials.png)
 
 ## 2 Configure Heroku CLI
 
