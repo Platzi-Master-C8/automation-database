@@ -7,7 +7,7 @@ Is written as instructions in order to replicate the process if necessary:
 ## 1 Set a Postgres Database
 1. Create a new Heroku app.
 	![new_app](assets/new_app.png)
-2. Add a PostreSQL database:
+2. Add a PostgreSQL database:
 	*  Navigate to the Resources tab in the header of your newly created app's dahsboard. 
 	*  Then type Heroku Postgres into the Add-ons search field.When shown, select the suggested Heroku Postgres add-on from the dropdown.
 	![heroku_postgres](assets/heroku_postgres.png)
